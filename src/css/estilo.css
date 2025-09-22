@@ -1,0 +1,37 @@
+/* RESET MANEIRO UNIVERSAL*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/*header*/
+.cabecalho-header{
+    background:rgb(184, 0, 0);
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.itens-header{
+    vertical-align: text-top;
+    align-items: center;
+}
+
+.itens-header ul{
+    list-style: none;
+    display:flex;
+}
+
+.itens-header a{
+    text-decoration:none;
+    color:#fff;
+    padding:1rem;
+    font-size:2rem;;
+    margin-top:20px;
+}
+
+.foto-usuario{
+    height:15vh;
+    width:15vh;
+    border-radius:100%
+}
