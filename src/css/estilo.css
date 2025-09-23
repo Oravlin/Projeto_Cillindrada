@@ -178,3 +178,19 @@
     background: rgb(184, 0, 0);
     color:#fff;
 }
+
+/* footer maneiro */
+
+.footer-content{
+    list-style:none;
+    text-decoration:none;
+    display:flex;
+    justify-content:space-around;
+}
+
+footer{
+    color:#fff;
+    text-decoration:none;
+    background:rgb(184, 0, 0);
+    padding:1.5rem;
+}
