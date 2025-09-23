@@ -131,3 +131,50 @@
     color: #fff;
     margin:5px;
 }
+
+/*crie-hoje*/
+
+.crie-hoje{
+    background-image:url(../assets/imagem\ teste.jpg);
+    background-position:center;
+    background-size:cover;
+    height:400px;
+    position:relative;
+    align-content:center;
+    text-align:center;
+    z-index:0;
+}
+
+.imagem-crie{
+    content:"";
+    background:rgba(0, 0, 0, 0.2);
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:1;
+}
+
+.crie-content{
+    position:relative;
+    z-index:2;
+}
+
+.crie-content h2{
+    font-size:2.5em;
+    color:rgb(184, 0, 0)
+}
+
+.crie-content span{
+    color:#fff;
+}
+
+.btn-criar{
+    cursor:pointer;
+    border:none;
+    border-radius:20px;
+    padding: 10px 20px;
+    background: rgb(184, 0, 0);
+    color:#fff;
+}
