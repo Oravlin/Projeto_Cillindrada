@@ -71,3 +71,63 @@
 .carrossel-sobre span{
     color: rgb(184, 0, 0)
 }
+
+/*Content-info*/
+
+.box-info{
+    display:inline-flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+#imagem-card1{
+    background-image:url(../assets/carro_info1.jpg);
+}
+
+#imagem-card2{
+    background-image: url(../assets/carro_info2.jpg);
+}
+
+#imagem-card3{
+    background-image:url(../assets/carro_info1.jpg);
+}
+
+#imagem-card4{
+    background-image: url(../assets/carro_info2.jpg);
+}
+
+.overlay-card{
+    content:"";
+    border-radius:2.5%;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    position:absolute;
+    z-index:1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.card-content{
+    position: relative;
+    z-index: 2;
+    font-size:1em;
+    padding:5px;
+}
+
+.card-img{
+    align-content: end;
+    border-radius: 2.5%;
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    height:50vh;
+    width: auto;
+}
+
+.card-info {
+    border-radius:10%;
+    text-align:center;
+    color: #fff;
+    margin:5px;
+}
