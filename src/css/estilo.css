@@ -181,16 +181,17 @@
 
 /* footer maneiro */
 
-.footer-content{
+.footer-content ul{
     list-style:none;
-    text-decoration:none;
     display:flex;
     justify-content:space-around;
-}
-
-footer{
-    color:#fff;
-    text-decoration:none;
     background:rgb(184, 0, 0);
     padding:1.5rem;
+    color:#fff;
+}
+
+
+.footer-content ul a{
+    text-decoration:none;
+    color:#fff;
 }
