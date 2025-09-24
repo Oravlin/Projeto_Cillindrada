@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 /* RESET MANEIRO UNIVERSAL*/
 *{
     padding:0;
@@ -62,6 +63,7 @@ body{
     padding-top:25px;
     position:relative;
     z-index:1;
+    font-size:1.5em;
 }
 
 .carrossel-overlay{
@@ -75,7 +77,10 @@ body{
 }
 
 .carrossel-sobre span{
-    color: rgb(184, 0, 0)
+    color: rgb(184, 0, 0);
+    font-family:"Oswald", sans-serif;
+    font-weight: 100px;
+    font-size:1.5em;
 }
 
 /*Content-info*/
@@ -143,6 +148,13 @@ body{
     max-width:70vh;
 }
 
+.card-img:hover{
+    transition: 0.25s ease-in;
+    box-shadow: 5px 5px 5px 5px #00000080;
+    transform: scale(105%);
+    z-index:5;
+}
+
 /*crie-hoje*/
 
 .crie-hoje{
@@ -180,6 +192,8 @@ body{
 
 .crie-content span{
     color:#fff;
+    font-family:"oswald", sans-serif;
+    font-size:1.5em;
 }
 
 .btn-criar{
