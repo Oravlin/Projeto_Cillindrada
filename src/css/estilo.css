@@ -4,6 +4,11 @@
     margin:0;
     box-sizing:border-box;
 }
+
+body{
+    font-family:sans-serif;
+}
+
 /*header*/
 .cabecalho-header{
     background:rgb(184, 0, 0);
@@ -50,6 +55,7 @@
     text-align:center;
     padding-top:50px;
     position:relative;
+    margin-bottom:15vh;
 }
 
 .carrossel-content{
@@ -75,9 +81,12 @@
 /*Content-info*/
 
 .box-info{
-    display:inline-flex;
+    display:flex;
     flex-wrap:wrap;
+    align-items:center;
     justify-content:center;
+    min-height:100vh;
+    width:100%;
 }
 
 #imagem-card1{
@@ -130,6 +139,8 @@
     text-align:center;
     color: #fff;
     margin:5px;
+    width: calc(50% - 20px);
+    max-width:70vh;
 }
 
 /*crie-hoje*/
@@ -143,6 +154,7 @@
     align-content:center;
     text-align:center;
     z-index:0;
+    margin-top:15vh;
 }
 
 .imagem-crie{
