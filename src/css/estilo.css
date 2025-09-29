@@ -8,6 +8,7 @@
 
 body{
     font-family:sans-serif;
+    scroll-behavior:smooth;
 }
 
 /*header*/
@@ -205,6 +206,11 @@ body{
     color:#fff;
 }
 
+.btn-criar:hover{
+    transform:scale(110%);
+    transition: 0.5s ease-in-out
+}
+
 /* footer maneiro */
 
 .footer-content ul{
@@ -220,4 +226,31 @@ body{
 .footer-content ul a{
     text-decoration:none;
     color:#fff;
+}
+
+/* Página Perfil */
+
+#dashboard-usuario{
+    justify-items:center;
+    align-items: center;
+    margin:1em;
+    padding-top:7rem;
+    background-image:url(../assets/imagem\ teste.jpg);
+    background-size: cover;
+    background-position:center;
+    padding-bottom:8rem
+}
+
+#foto-dashboard{
+    max-width:500px;
+    max-height:500px;
+    border-radius:25%;
+    padding-bottom:1em;
+}
+
+#nome-usuario{
+    padding:5px;
+    font-size:2.5em;
+    background:#fff;
+    border-radius:10%;
 }
