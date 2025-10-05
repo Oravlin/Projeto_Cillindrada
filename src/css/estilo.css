@@ -16,7 +16,7 @@ body{
     background:rgb(184, 0, 0);
     display:flex;
     justify-content: space-between;
-    padding:10px;
+    padding:5px;
     align-items:center;
 }
 
@@ -35,13 +35,12 @@ body{
     text-decoration:none;
     color:#fff;
     padding:1rem;
-    font-size:2rem;;
-    margin-top:20px;
+    font-size:1.4rem;
 }
 
 .foto-usuario{
-    height:100px;
-    width:100px;
+    height:50px;
+    width:50px;
     border-radius:100%
 }
 
@@ -231,19 +230,22 @@ body{
 /* Página Perfil */
 
 #dashboard-usuario{
-    justify-items:center;
-    align-items: center;
     margin:1em;
     padding-top:7rem;
     background-image:url(../assets/imagem\ teste.jpg);
     background-size: cover;
     background-position:center;
-    padding-bottom:8rem
+    padding-bottom:1rem;
+}
+
+#dashboard-usuario div{
+    text-align:center;
+    justify-self:center;
 }
 
 #foto-dashboard{
-    max-width:500px;
-    max-height:500px;
+    max-width:55vh;
+    max-height:55vh;
     border-radius:25%;
     padding-bottom:1em;
 }
