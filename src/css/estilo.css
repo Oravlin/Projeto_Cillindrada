@@ -254,16 +254,38 @@ body{
     padding:5px;
     font-size:2.5em;
     background:#fff;
-    border-radius:10%;
+    border-radius:10px;
 }
 
 /* Destaque do perfil */
 
 #destaque{
-    display:flex;
+    display:grid;
     justify-content:center;
+    border-color:#000;
+    border: 10px 10px 10px 10px;
 }
 
 #info-destaque{
     justify-content:space-between;
+}
+
+#capa-destaque{
+    width:500px;
+    height:auto;
+    border-radius:30px;
+}
+
+#acoes-destaque{
+    display:flex;
+    justify-content:right;
+    gap:10px;
+}
+
+.like{
+    display:flex;
+}
+
+.views{
+    display:flex;
 }
