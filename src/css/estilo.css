@@ -11,6 +11,12 @@ body{
     scroll-behavior:smooth;
 }
 
+.logo-header{
+    width:150px;
+    height:auto;
+    margin-left:10px;
+}
+
 /*header*/
 .cabecalho-header{
     background:rgb(184, 0, 0);
@@ -288,4 +294,70 @@ body{
 
 .views{
     display:flex;
+}
+
+/* Loja */
+
+.content-loja{
+    margin-top:50px;
+    margin-bottom:50px;
+    display:flex;
+    /*grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas:
+    "filtro-loja produtos produtos"
+    "filtro-loja produtos produtos"
+    "produtos produtos produtos";*/ /* não funfo */
+}
+
+.produtos-loja{
+    grid-area:produtos;
+    display:flex;
+    flex-wrap:wrap;
+    justify-self:center;
+    gap:10px;
+    margin-left:3em;
+    top:0;
+}
+
+.filtro{
+    grid-area:filtro-loja;
+    width:fit-content;
+    margin-left:10px;
+}
+
+.item-produto{
+    padding:0.5em;
+    width:fit-content;
+    border:3px solid #000;
+    background:transparent;
+    display:grid;
+    justify-content:center;
+    border-radius:10px;
+}
+
+.capa-produto{
+    width:18em;
+    height:18em;
+    border-radius:10px
+}
+
+.nome-produto{
+    font-size:1.2rem;
+    margin-bottom:5px;
+}
+
+.preco-produto{
+    font-size:1.5rem;
+    color:rgb(30, 128, 0);
+}
+
+.proprietario-produto{
+    font-size:1rem;
+}
+
+.barra-pesquisa{
+    width:15em;
+    height:2em;
+    border-radius:5px;
+    font-size:16px;
 }
