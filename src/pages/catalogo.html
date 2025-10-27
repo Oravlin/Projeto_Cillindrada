@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cillindrada - Catálogo</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" type="icon/x-icon" href="../assets/logo_epica/logo_cillindrada.svg">
+</head>
+
+<body>
+
+    <header class="cabecalho-header">
+
+        <a href="../../index.html"><img src="../assets/logo_epica/logo_cillindrada.svg" alt="logo épica"
+                class="logo-header"></a>
+
+        <nav class="itens-header">
+
+            <ul>
+
+                <li><a href="#" class="link-header">Criar</a></li>
+                <li><a href="#" class="link-header">Minhas Criações</a></li>
+                <li><a href="./catalogo.html" class="link-header">Catálogo</a></li>
+                <li><a href="#" class="link-header">Comunidade</a></li>
+                <li><a href="./loja.html" class="link-header">Loja</a></li>
+                <li><a href="#" class="link-header">Favoritos</a></li>
+
+            </ul>
+
+        </nav>
+
+        <a href="../pages/perfil.html"><img src="../assets/imagem_perfil.jpg" alt="foto de perfil legal"
+                class="foto-usuario"></a>
+
+    </header>
+
+    <main class="catalogo-main">
+
+        <div class="pesquisa-catalogo">
+            <input type="text" placeholder="Pesquisar" class="barra-pesquisa-catalogo">
+            <section>
+                <button class="btn-filtro-catalogo" onclick="ativarLista('filtro-catalogo')">Filtrar</button>
+                <ul class="filtro-catalogo show">
+                    <li><input type="checkbox">Item</li>
+                    <li><input type="checkbox">Item</li>
+                    <li><input type="checkbox">Item</li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="catalogo-content">
+
+            <div class="catalogo-item">
+                <a href="./perfil.html">
+                    <img src="../assets/produtos/hotwheels_epico.jpg" class="capa-catalogo">
+                </a>
+                <section class="info-catalogo-item">
+                    <div>
+                        <h1 class="nome-catalogo">Hot Wheels Maneiro</h1>
+                        <a href="./perfil.html" class="criador-catalogo">xxX_CarLover69_Xxx</a>
+                    </div>
+
+                    <section class="acoes-catalogo">
+                        <div class="like">
+                            <div class="icone-like"></div>
+                            <p>999</p>
+                        </div>
+                        <div class="views">
+                            <div class="icone-views"></div>
+                            <p>99</p>
+                        </div>
+                    </section>
+
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-content">
+            <ul>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Desenvolvedor</a></li>
+                <li><a href="#">Cliente</a></li>
+                <li>
+                    <p>&copy; Todos os direitos reservador - 2025</p>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
