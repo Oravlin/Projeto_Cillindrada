@@ -124,6 +124,7 @@ body {
 }
 
 .overlay-card {
+    transition:ease-out 0.25s;
     content: "";
     border-radius: 2.5%;
     top: 0;
@@ -136,7 +137,7 @@ body {
 }
 
 .overlay-card:hover {
-    transition: ease 0.25s;
+    transition: ease-in-out 0.25s;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.5) 90%);
 }
 
@@ -394,6 +395,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top:20px;
 }
 
 .catalogo-item {
