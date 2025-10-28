@@ -124,7 +124,7 @@ body {
 }
 
 .overlay-card {
-    transition:ease-out 0.25s;
+    transition: ease-out 0.25s;
     content: "";
     border-radius: 2.5%;
     top: 0;
@@ -395,7 +395,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .catalogo-item {
@@ -460,29 +460,29 @@ body {
 .btn-filtro-catalogo {
     background: rgb(184, 0, 0);
     color: #fff;
-    width:70px;
-    aspect-ratio:1/0.5;
-    border:1px #000 solid;
-    border-radius:100px;
-    font-size:1.2em;
-    cursor:pointer;
+    width: 70px;
+    aspect-ratio: 1/0.5;
+    border: 1px #000 solid;
+    border-radius: 100px;
+    font-size: 1.2em;
+    cursor: pointer;
 }
 
-.filtro-catalogo{
-    width:0;
-    content:'';
-    height:0;
-    visibility:hidden;
-    opacity:0;
-    list-style:none;
+.filtro-catalogo {
+    width: 0;
+    content: '';
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    list-style: none;
     transition: width ease-in-out 0.5s;
 }
 
-.filtro-catalogo.show{
-    visibility:visible;
-    opacity:1;
-    width:fit-content;
-    height:auto;
+.filtro-catalogo.show {
+    visibility: visible;
+    opacity: 1;
+    width: fit-content;
+    height: auto;
 }
 
 /* icones legais */
@@ -500,4 +500,68 @@ body {
     background-size: cover;
     width: 18px;
     height: auto;
+}
+
+/* pag item compra */
+
+.compra-content {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    background:#fff;
+    border-radius:10px;
+    padding:10px;
+    margin-top:50px;
+}
+
+.compra-descricao{
+    background:#fff;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:15px;
+    border-radius:10px;
+    padding:10px;
+}
+
+.imagem-compra {
+    width: 500px;
+    height: auto;
+}
+
+.nome-compra {
+    margin-bottom:25px;
+    font-size: 3em;
+}
+
+.preco-compra {
+    font-size: 2.8em;
+    color: rgb(30, 128, 0);
+}
+
+.compra-detalhes {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.btn-comprar {
+    width: 200px;
+    height: 50px;
+    font-size: 1.7em;
+    border: none;
+    border-radius: 10px;
+    background: rgb(184, 0, 0);
+    color:#fff;
+    margin-top:50px;
+}
+
+#body-compra{
+    background:rgb(216, 196, 196)
+}
+
+.mini-desc-compra{
+    margin-top:20px;
+}
+
+.mini-desc-compra ul{
+    margin-left:1.1em;
 }
