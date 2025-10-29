@@ -349,10 +349,19 @@ body {
     border: 3px solid #000;
     background: #fff;
     display: grid;
+    flex-wrap: wrap;
     justify-content: center;
     border-radius: 10px;
     cursor: pointer;
     color: #000;
+    min-height: 383px;
+    max-height: 383px;
+    min-width: 320px;
+    max-width: 320px;
+}
+
+.item-produto div {
+    align-self: flex-end;
 }
 
 .item-produto:hover {
@@ -364,8 +373,9 @@ body {
 
 .capa-produto {
     width: 18em;
-    height: 18em;
-    border-radius: 10px
+    height: fit-content;
+    border-radius: 10px;
+    align-self: center;
 }
 
 .nome-produto {
@@ -506,31 +516,39 @@ body {
 
 .compra-content {
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
-    background:#fff;
-    border-radius:10px;
-    padding:10px;
-    margin-top:50px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 50px 0 50px;
+    height: 520px;
 }
 
-.compra-descricao{
-    background:#fff;
-    margin-left:50px;
-    margin-right:50px;
-    margin-top:15px;
-    border-radius:10px;
-    padding:10px;
+.compra-descricao {
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 50px 10px 50px;
+    cursor: auto;
+}
+
+.compra-descricao ul {
+    margin-top: 15px;
+    margin-left: 15px;
+    list-style: circle;
 }
 
 .imagem-compra {
+    align-self: center;
     width: 500px;
-    height: auto;
+    height: fit-content;
+    border-radius: 30px;
 }
 
 .nome-compra {
-    margin-bottom:25px;
+    margin-bottom: 25px;
     font-size: 3em;
+    flex-wrap: wrap;
 }
 
 .preco-compra {
@@ -544,24 +562,33 @@ body {
 }
 
 .btn-comprar {
+    transition: 0.25s ease;
     width: 200px;
     height: 50px;
     font-size: 1.7em;
     border: none;
     border-radius: 10px;
     background: rgb(184, 0, 0);
-    color:#fff;
-    margin-top:50px;
+    color: #fff;
+    margin-top: 50px;
+    cursor: pointer;
 }
 
-.body-compra{
-    background:rgb(216, 196, 196)
+.btn-comprar:hover {
+    transform: scale(110%);
+    transition: 0.25s ease;
 }
 
-.mini-desc-compra{
-    margin-top:20px;
+.body-compra {
+    background: rgb(216, 196, 196)
 }
 
-.mini-desc-compra ul{
-    margin-left:1.1em;
+.mini-desc-compra {
+    margin-top: 20px;
+    cursor: auto;
+}
+
+.mini-desc-compra ul {
+    margin-left: 1.1em;
+    list-style: circle;
 }
