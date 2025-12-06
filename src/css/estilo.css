@@ -97,20 +97,20 @@ body {
 }
 
 /*Content-info*/
-.content-info{
-    display:flex;
+.content-info {
+    display: flex;
     justify-content: center;
 }
 
 .box-info {
     display: flex;
-    flex-wrap:wrap;
-    margin:auto;
+    flex-wrap: wrap;
+    margin: auto;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     width: fit-content;
-    max-width:150vh;
+    max-width: 150vh;
 }
 
 #imagem-card1 {
@@ -229,11 +229,12 @@ body {
     padding: 10px 20px;
     background: rgb(184, 0, 0);
     color: #fff;
+    transition: 0.3s ease-in-out;
 }
 
 .btn-criar:hover {
     transform: scale(110%);
-    transition: 0.5s ease-in-out
+    transition: 0.3s ease-in-out
 }
 
 /* footer maneiro */
